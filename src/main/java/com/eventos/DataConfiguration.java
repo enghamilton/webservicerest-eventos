@@ -15,7 +15,7 @@ public class DataConfiguration {
 	@Bean
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setDriverClassName("org.postgresql.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/evento");
         dataSource.setUsername("root");
         dataSource.setPassword("michelli14");
