@@ -16,9 +16,9 @@ public class DataConfiguration {
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.postgresql.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/evento");
-        dataSource.setUsername("root");
-        dataSource.setPassword("michelli14");
+        dataSource.setUrl("ec2-107-20-168-237.compute-1.amazonaws.com");
+        dataSource.setUsername("ivchhoxzrfmfxe");
+        dataSource.setPassword("83dd727c514763e78f0874b3008a21ea0da43e93159933c599a89125823ba498");
         return dataSource;
     }
 	
